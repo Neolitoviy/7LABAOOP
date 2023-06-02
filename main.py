@@ -22,7 +22,7 @@ class Ball:
             output += f"{self.colors[i % l]},"
             i -= 1
             output += f"{self.colors[i % l]}.\n"
-            i += 1
+            i += 2
         return output
 
 
